@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cards offer</title>
+<meta name="theme-color" content="#100e0c">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #100e0c; color: #f3eee4; font-family: Outfit, ui-sans-serif, system-ui, sans-serif; }
+  main { max-width: 64rem; margin: 0 auto; padding: 2rem 1rem 3rem; }
+  header { border-bottom: 1px solid #3a332b; padding-bottom: 1.5rem; }
+  .kicker { margin: 0; color: #c6a15a; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.16em; }
+  .title-row { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-top: 0.5rem; }
+  h1, .total { margin: 0; font-family: Fraunces, Georgia, serif; font-size: 2.5rem; line-height: 1; font-weight: 560; }
+  .total { color: #e6d3a4; }
+  .summary { margin: 0.75rem 0 0; color: #9c917f; font-size: 0.875rem; }
+  section { margin-top: 2rem; }
+  .set { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+  .set span { width: 1.5rem; height: 2px; background: #c6a15a; }
+  .set h2 { margin: 0; color: #c6a15a; font-size: 0.875rem; letter-spacing: 0.04em; }
+  .set p { margin: 0; font-size: 0.875rem; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 0.75rem; }
+  @media (min-width: 640px) {
+    main { padding: 2.5rem 1.5rem 4rem; }
+    h1, .total { font-size: 3rem; }
+    ul { grid-template-columns: 1fr 1fr; }
+    .tile img { width: 8rem; }
+  }
+  .tile { display: flex; gap: 0.75rem; background: #1b1814; border-radius: 0.75rem; padding: 0.75rem; }
+  .tile img { width: 7rem; height: auto; border-radius: 0.25rem; box-shadow: 0 0 0 1px #3a332b; }
+  .tile img.foil { box-shadow: 0 0 0 1px #c6a15a; }
+  .meta { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+  .code { margin: 0; color: #e6d3a4; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
+  h3 { margin: 0.25rem 0 0; font-family: Fraunces, Georgia, serif; font-size: 1.25rem; font-weight: 560; line-height: 1.2; }
+  .finish { margin: 0.25rem 0 0; color: #9c917f; font-size: 0.875rem; }
+  .finish.gold { color: #c6a15a; }
+  .price { margin: auto 0 0; padding-top: 0.75rem; text-align: right; font-size: 1.125rem; font-weight: 600; }
+  .price.free { color: #b7c4a4; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="kicker">MAGIC: THE GATHERING</p>
+    <div class="title-row">
+      <h1>Cards offer</h1>
+      <p class="total">£84.15</p>
+    </div>
+    <p class="summary">21 cards · 3 silver foil · 9 free of charge</p>
+  </header>
+  <section>
+      <div class="set"><span></span><h2>SOA</h2><p>Secrets of Strixhaven · Mystical Archive</p></div>
+      <ul><li class="tile">
+      <img src="cards/soa-185.jpg" alt="Pick Your Poison" width="488" height="680" class="foil">
+      <div class="meta">
+        <p class="code">SOA 185</p>
+        <h3>Pick Your Poison</h3>
+        <p class="finish gold">Silver foil</p>
+        <p class="price ">£8.55</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-134.jpg" alt="Duty Beyond Death" width="488" height="680" class="foil">
+      <div class="meta">
+        <p class="code">SOA 134</p>
+        <h3>Duty Beyond Death</h3>
+        <p class="finish gold">Silver foil</p>
+        <p class="price ">£4.00</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-145.jpg" alt="Daze" width="488" height="680" class="foil">
+      <div class="meta">
+        <p class="code">SOA 145</p>
+        <h3>Daze</h3>
+        <p class="finish gold">Silver foil</p>
+        <p class="price ">£36.10</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-105.jpg" alt="Bulk Up" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOA 105</p>
+        <h3>Bulk Up</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-123.jpg" alt="Shared Roots" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOA 123</p>
+        <h3>Shared Roots</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-080.jpg" alt="Daze" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOA 080</p>
+        <h3>Daze</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£3.50</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-093.jpg" alt="Dismember" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOA 093</p>
+        <h3>Dismember</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£4.00</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-098.jpg" alt="Smallpox" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOA 098</p>
+        <h3>Smallpox</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£2.00</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-115.jpg" alt="Berserk" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOA 115</p>
+        <h3>Berserk</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£9.00</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/soa-107.jpg" alt="Crackle with Power" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOA 107</p>
+        <h3>Crackle with Power</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£8.50</p>
+      </div>
+    </li></ul>
+    </section><section>
+      <div class="set"><span></span><h2>SOS</h2><p>Secrets of Strixhaven</p></div>
+      <ul><li class="tile">
+      <img src="cards/sos-360.jpg" alt="Zaffai and the Tempests" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 360</p>
+        <h3>Zaffai and the Tempests</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-352.jpg" alt="Mind into Matter" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 352</p>
+        <h3>Mind into Matter</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-312.jpg" alt="Joined Researchers" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 312</p>
+        <h3>Joined Researchers</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-311.jpg" alt="Informed Inkwright" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 311</p>
+        <h3>Informed Inkwright</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-326.jpg" alt="Moseo, Vein's New Dean" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 326</p>
+        <h3>Moseo, Vein's New Dean</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£1.00</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-235.jpg" alt="Grave Researcher" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 235</p>
+        <h3>Grave Researcher</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£2.00</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-332.jpg" alt="Emeritus of Conflict" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 332</p>
+        <h3>Emeritus of Conflict</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£2.50</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-346.jpg" alt="Berta, Wise Extrapolator" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 346</p>
+        <h3>Berta, Wise Extrapolator</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/sos-343.jpg" alt="Applied Geometry" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">SOS 343</p>
+        <h3>Applied Geometry</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li></ul>
+    </section><section>
+      <div class="set"><span></span><h2>ECL</h2><p>Lorwyn Eclipsed</p></div>
+      <ul><li class="tile">
+      <img src="cards/ecl-353.jpg" alt="Champion of the Clachan" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">ECL 353</p>
+        <h3>Champion of the Clachan</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price free">Free of charge</p>
+      </div>
+    </li>
+<li class="tile">
+      <img src="cards/ecl-308.jpg" alt="Mirrorform" width="488" height="680" class="">
+      <div class="meta">
+        <p class="code">ECL 308</p>
+        <h3>Mirrorform</h3>
+        <p class="finish ">Nonfoil</p>
+        <p class="price ">£3.00</p>
+      </div>
+    </li></ul>
+    </section>
+</main>
+</body>
+</html>
